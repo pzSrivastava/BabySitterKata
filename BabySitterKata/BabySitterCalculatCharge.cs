@@ -24,7 +24,6 @@ namespace BabySitterKata
 
             if (startTime >= babySitterStartTime && endTime <= ExtraMoneyTime)
                 cost = (endTime - startTime) * famalyAWage;
-
             return cost;
 
         }
