@@ -52,8 +52,8 @@ namespace BabySitterKataTest
         public void TestCalculateChargeforFamilyTill2Am()
         {
             int startTime, endTime;
-            startTime = 17;      //  5PM - 11 pm = 6hr * 15  // ||  17 - 23 = 6 * 15 
-            endTime = 2;     //14  // 2AM  11 - 2 AM = 3 *20    || 23 - [24 + 2 ]=  3 * 20
+            startTime = 17;       // ||  17 - 23 = 6 * 15 
+            endTime = 2;    //   || 23 - [24 + 2 ]=  3 * 20
 
             Assert.Equal(150, new BabySitterCalculatCharge().CalculateBabySitterPremiumHoursPay(startTime, endTime));
         }
