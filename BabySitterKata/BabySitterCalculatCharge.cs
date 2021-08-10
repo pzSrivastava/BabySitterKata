@@ -39,20 +39,5 @@ namespace BabySitterKata
             return cost;
 
         }
-
-
-        //public double CalculateBabySitterPremiumHours(int startTime, int endTime)
-        //{
-        //    double cost = 0;
-        //    // 5PM -> 2AM
-        //    // 5 PM - 11 PM = 6 hr * 15
-        //    // 11 PM - 2 AM = 3hr * 20   ==> 150           
-
-        //    int startToBefore11 = (boudarytime - startTime) * famalyAWage;
-        //    int after11 = endTime < boudarytime ? 0 : (endTime - boudarytime) * famalyASpecialWageAfter11;
-        //    cost = startToBefore11 + after11;
-        //    return cost;
-
-        //}
     }
 }
